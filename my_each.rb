@@ -1,9 +1,9 @@
 def my_each(collection)
-  word = 0 
+  i = 0 
   
-  while word < collection
-    yield (collection[word])
-    word += 1 
+  while i < collection.length
+    yield (collection[i])
+    i += 1 
   end
   collection
 end
