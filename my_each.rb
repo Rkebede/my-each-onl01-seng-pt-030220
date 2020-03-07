@@ -3,6 +3,7 @@ def my_each(word)
   while letter <= word.length
     word.length do |letter|
       letter += 1
+      yield()
     end
   end
 end
