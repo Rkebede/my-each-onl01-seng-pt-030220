@@ -1,4 +1,5 @@
 def my_each(collection)
-  while word < 
+  while word < collection
+  
   
 end
